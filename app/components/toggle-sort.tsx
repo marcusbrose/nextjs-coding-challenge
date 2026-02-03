@@ -29,7 +29,7 @@ export default function ({
   return (
     <Field className="w-20">
       <FieldLabel htmlFor="sort">Sort</FieldLabel>
-      <Button id="sort" aria-label="Toggle sort options" variant="outline" onClick={onClick} >
+      <Button type="button" id="sort" aria-label="Toggle sort options" variant="outline" onClick={onClick} >
         {value === "date_asc" &&
           <>
             Date
