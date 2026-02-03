@@ -20,7 +20,7 @@
 
 ## Design Decisions (Search/Relevance)
 
-- Search Strategy: Implemented multi-field fuzzy search across relevant text fields
+- Search Strategy: Implemented multi-field fuzzy and token based search across relevant text fields
 - State: Implemented tanstack query for search result state management
 - Relevance Scoring: Weighted exact matches higher than partial matches, with title/name fields having higher priority
 - Debouncing: Added 300ms debounce to prevent excessive API calls during typing
